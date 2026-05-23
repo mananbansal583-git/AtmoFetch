@@ -6,14 +6,6 @@ A modern, responsive weather application built with Vanilla JavaScript, featurin
 
 ---
 
-## 📸 Screenshots
-
-*(Note: Add your screenshot image file to the repository and link it here)*
-
-![AtmoFetch Desktop View](link-to-your-image.png)
-
----
-
 ## ✨ Features
 
 * **Real-Time Data:** Fetches current temperature, humidity, wind speed, and weather conditions.
