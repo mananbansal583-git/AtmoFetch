@@ -2,7 +2,7 @@
 
 A modern, responsive weather application built with Vanilla JavaScript, featuring a dynamic teal and green animated UI. AtmoFetch utilizes the OpenWeatherMap API to provide real-time weather data with robust error handling and a custom search fallback logic.
 
-**[🔴 Live Preview](https://mananbansal583-git.github.io/AtmoFetch/)** | **[📂 Source Code](https://github.com/mananbansal583-git/AtmoFetch)**
+**[🔴 Live Preview](https://mananbdev.github.io/AtmoFetch/)** | **[📂 Source Code](https://github.com/mananbdev/AtmoFetch)**
 
 ---
 
@@ -42,7 +42,7 @@ To run this project locally on your machine:
 
 1. Clone the repository:
 ```bash
-   git clone [https://github.com/mananbansal583-git/AtmoFetch.git](https://github.com/mananbansal583-git/AtmoFetch.git)
+   git clone [https://github.com/mananbdev/AtmoFetch.git](https://github.com/mananbdev/AtmoFetch.git)
    ```
 
 2. Navigate to the project directory:
@@ -59,7 +59,7 @@ To run this project locally on your machine:
 ## 👨‍💻 Author
 
 **Manan Bansal**
-* GitHub: [@mananbansal583-git](https://github.com/mananbansal583-git)
+* GitHub: [@mananbdev](https://github.com/mananbdev)
 
 ---
 
