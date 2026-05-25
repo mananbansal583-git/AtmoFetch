@@ -35,14 +35,22 @@ body {
   border-radius: 30px;
   background: linear-gradient(135deg, #00c9a7, #00796b);
   background-size: 200% 200%;
-  animation: gradientBG 8s ease infinite, cardEntrance 0.8s ease-out;
+  animation:
+    gradientBG 8s ease infinite,
+    cardEntrance 0.8s ease-out;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
 }
 
 @keyframes gradientBG {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .search {
@@ -90,7 +98,9 @@ body {
   align-items: center;
   justify-content: center;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .search button:hover {
@@ -103,9 +113,15 @@ body {
 }
 
 @keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-15px); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .weather-icon {
@@ -144,7 +160,7 @@ body {
   display: flex;
   align-items: center;
   text-align: left;
-  background: rgba(0, 0, 0, 0.15); 
+  background: rgba(0, 0, 0, 0.15);
   padding: 15px;
   border-radius: 20px;
   flex: 1;
@@ -157,7 +173,8 @@ body {
   opacity: 0.9;
 }
 
-.humidity, .wind {
+.humidity,
+.wind {
   font-size: 20px;
   font-weight: 500;
 }
@@ -170,12 +187,18 @@ body {
 }
 
 @keyframes weatherFadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .weather {
-  display: none; 
+  display: none;
   animation: weatherFadeIn 0.7s ease-out forwards;
 }
 
@@ -185,7 +208,7 @@ body {
   font-size: 14px;
   margin-top: 15px;
   display: none;
-  color: #ffcccc; 
+  color: #ffcccc;
   background: rgba(255, 204, 204, 0.15);
   padding: 10px 15px;
   border-radius: 10px;
